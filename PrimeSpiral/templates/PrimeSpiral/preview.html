@@ -1,0 +1,9 @@
+{% extends "HOME\prebase.html" %}
+{% load static %}
+
+{%block title%} Spiral preview {%endblock%}
+
+{%block body%}
+    <canvas id="spiral_canvas"></canvas>
+    <script src="{% static 'PrimeSpiral/script.js' %}"></script>
+{%endblock%}
